@@ -1,0 +1,259 @@
+gnome-utils
+-------------------------------------------
+Includes four GNOME Desktop utilities: gnome-system-log,
+gnome-search-tool, gnome-dictionary, and gnome-screenshot.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  GConf2-2.14.0-1
+  atk-1.10.3-1
+  gnome-panel-2.14.1-1
+  gtk2-x11-2.8.17-1
+  libX11_6-1.0.0-2
+  libXext6-1.0.0-1
+  libart_lgpl2-2.3.17-1
+  libbonoboui2-2.14.0-1
+  libglade2-2.5.1-1
+  libgnome-desktop2-2.14.1-1
+  libgnome2-2.14.1-1
+  libgnomeprint22-2.12.1-2
+  libgnomeprintui22-2.12.1-1
+  libgnomeui2-2.14.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.1.93-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  intltool-0.35.0-1
+  make-3.80-1
+  pkg-config-0.20-1
+  scrollkeeper-0.3.14-2
+  sed-4.1.4-1
+
+Canonical homepage:
+  http://www.gnome.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/gnome-utils/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-utils-2.14.0-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-utils-2.14.0-1.cygport all
+
+This will create:
+  /usr/src/gnome-utils-2.14.0-1-src.tar.bz2
+  /usr/src/gnome-utils-2.14.0-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/gconf/schemas/gnome-dictionary.schemas
+  /etc/gconf/schemas/gnome-screenshot.schemas
+  /etc/gconf/schemas/gnome-search-tool.schemas
+  /etc/gconf/schemas/logview.schemas
+  /etc/postinstall/gnome-utils.sh
+  /etc/preremove/gnome-utils.sh
+  /usr/bin/cyggdict-1.0-1.dll
+  /usr/bin/gnome-dictionary.exe
+  /usr/bin/gnome-panel-screenshot.exe
+  /usr/bin/gnome-screenshot.exe
+  /usr/bin/gnome-search-tool.exe
+  /usr/bin/gnome-system-log.exe
+  /usr/include/gdict-1.0/gdict/gdict-client-context.h
+  /usr/include/gdict-1.0/gdict/gdict-context.h
+  /usr/include/gdict-1.0/gdict/gdict-defbox.h
+  /usr/include/gdict-1.0/gdict/gdict-entry.h
+  /usr/include/gdict-1.0/gdict/gdict-enum-types.h
+  /usr/include/gdict-1.0/gdict/gdict-source-loader.h
+  /usr/include/gdict-1.0/gdict/gdict-source.h
+  /usr/include/gdict-1.0/gdict/gdict-utils.h
+  /usr/include/gdict-1.0/gdict/gdict-version.h
+  /usr/include/gdict-1.0/gdict/gdict.h
+  /usr/lib/bonobo/servers/GNOME_DictionaryApplet.server
+  /usr/lib/libgdict-1.0.dll.a
+  /usr/lib/libgdict-1.0.la
+  /usr/lib/panel-2.0/gnome-dictionary-applet.exe
+  /usr/lib/pkgconfig/gdict-1.0.pc
+  /usr/share/applications/gnome-dictionary.desktop
+  /usr/share/applications/gnome-screenshot.desktop
+  /usr/share/applications/gnome-search-tool.desktop
+  /usr/share/applications/gnome-system-log.desktop
+  /usr/share/doc/Cygwin/gnome-utils-2.14.0.README
+  /usr/share/doc/gnome-utils-2.14.0/AUTHORS
+  /usr/share/doc/gnome-utils-2.14.0/COPYING
+  /usr/share/doc/gnome-utils-2.14.0/ChangeLog
+  /usr/share/doc/gnome-utils-2.14.0/INSTALL
+  /usr/share/doc/gnome-utils-2.14.0/NEWS
+  /usr/share/doc/gnome-utils-2.14.0/README
+  /usr/share/doc/gnome-utils-2.14.0/THANKS
+  /usr/share/gdict-1.0/sources/default.desktop
+  /usr/share/gdict-1.0/sources/french.desktop
+  /usr/share/gdict-1.0/sources/spanish.desktop
+  /usr/share/gnome-2.0/ui/GNOME_DictionaryApplet.xml
+  /usr/share/gnome-dictionary/gnome-dictionary-preferences.glade
+  /usr/share/gnome-dictionary/gnome-dictionary-ui.xml
+  /usr/share/gnome-screenshot/glade/gnome-screenshot.glade
+  /usr/share/gnome-system-log/gnome-system-log-actions.db
+  /usr/share/gnome-system-log/gnome-system-log-descript.db
+  /usr/share/gnome-system-log/gnome-system-log-regexp.db
+  /usr/share/gnome/help/gnome-dictionary/C/figures/gnome-dictionary-add-source.png
+  /usr/share/gnome/help/gnome-dictionary/C/figures/gnome-dictionary-applet-window.png
+  /usr/share/gnome/help/gnome-dictionary/C/figures/gnome-dictionary-applet.png
+  /usr/share/gnome/help/gnome-dictionary/C/figures/gnome-dictionary-application.png
+  /usr/share/gnome/help/gnome-dictionary/C/figures/gnome-dictionary-find.png
+  /usr/share/gnome/help/gnome-dictionary/C/figures/gnome-dictionary-lookup.png
+  /usr/share/gnome/help/gnome-dictionary/C/figures/gnome-dictionary-preferences-print.png
+  /usr/share/gnome/help/gnome-dictionary/C/figures/gnome-dictionary-preferences-source.png
+  /usr/share/gnome/help/gnome-dictionary/C/gnome-dictionary.xml
+  /usr/share/gnome/help/gnome-dictionary/C/legal.xml
+  /usr/share/gnome/help/gnome-dictionary/es/figures/gnome-dictionary-add-source.png
+  /usr/share/gnome/help/gnome-dictionary/es/figures/gnome-dictionary-applet-window.png
+  /usr/share/gnome/help/gnome-dictionary/es/figures/gnome-dictionary-applet.png
+  /usr/share/gnome/help/gnome-dictionary/es/figures/gnome-dictionary-application.png
+  /usr/share/gnome/help/gnome-dictionary/es/figures/gnome-dictionary-find.png
+  /usr/share/gnome/help/gnome-dictionary/es/figures/gnome-dictionary-lookup.png
+  /usr/share/gnome/help/gnome-dictionary/es/figures/gnome-dictionary-preferences-print.png
+  /usr/share/gnome/help/gnome-dictionary/es/figures/gnome-dictionary-preferences-source.png
+  /usr/share/gnome/help/gnome-dictionary/es/gnome-dictionary.xml
+  /usr/share/gnome/help/gnome-search-tool/C/figures/gnome-search-tool_window.png
+  /usr/share/gnome/help/gnome-search-tool/C/gnome-search-tool.xml
+  /usr/share/gnome/help/gnome-search-tool/C/legal.xml
+  /usr/share/gnome/help/gnome-search-tool/es/figures/gnome-search-tool_window.png
+  /usr/share/gnome/help/gnome-search-tool/es/gnome-search-tool.xml
+  /usr/share/gnome/help/gnome-search-tool/it/figures/gnome-search-tool_window.png
+  /usr/share/gnome/help/gnome-search-tool/it/gnome-search-tool.xml
+  /usr/share/gnome/help/gnome-system-log/C/figures/syslog_window.png
+  /usr/share/gnome/help/gnome-system-log/C/gnome-system-log.xml
+  /usr/share/gnome/help/gnome-system-log/C/legal.xml
+  /usr/share/gnome/help/gnome-system-log/es/figures/syslog_window.png
+  /usr/share/gnome/help/gnome-system-log/es/gnome-system-log.xml
+  /usr/share/gtk-doc/html/gdict/gdict-GdictClientContext.html
+  /usr/share/gtk-doc/html/gdict/gdict-GdictContext.html
+  /usr/share/gtk-doc/html/gdict/gdict-GdictDefbox.html
+  /usr/share/gtk-doc/html/gdict/gdict-GdictEntry.html
+  /usr/share/gtk-doc/html/gdict/gdict-GdictSource.html
+  /usr/share/gtk-doc/html/gdict/gdict-GdictSourceLoader.html
+  /usr/share/gtk-doc/html/gdict/gdict.devhelp
+  /usr/share/gtk-doc/html/gdict/gdict.devhelp2
+  /usr/share/gtk-doc/html/gdict/gdict.html
+  /usr/share/gtk-doc/html/gdict/gdictui.html
+  /usr/share/gtk-doc/html/gdict/home.png
+  /usr/share/gtk-doc/html/gdict/index.html
+  /usr/share/gtk-doc/html/gdict/index.sgml
+  /usr/share/gtk-doc/html/gdict/introduction.html
+  /usr/share/gtk-doc/html/gdict/left.png
+  /usr/share/gtk-doc/html/gdict/right.png
+  /usr/share/gtk-doc/html/gdict/sources-loader.html
+  /usr/share/gtk-doc/html/gdict/sources.html
+  /usr/share/gtk-doc/html/gdict/style.css
+  /usr/share/gtk-doc/html/gdict/up.png
+  /usr/share/locale/am/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ar/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/az/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/be/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/bg/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/bn/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/bs/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ca/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/cs/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/cy/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/da/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/de/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/el/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/en_CA/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/es/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/et/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/eu/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/fa/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/fi/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/fr/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ga/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/gl/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/gu/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/he/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/hi/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/hr/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/hu/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/id/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/it/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ja/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ko/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ku/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/lt/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/lv/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/mk/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ml/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/mn/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ms/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/nb/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ne/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/nl/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/nn/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/no/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/pa/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/pl/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/pt/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ro/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ru/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/rw/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/sk/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/sl/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/sq/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/sr/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/sr@Latn/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/sv/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ta/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/th/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/tr/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/uk/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/vi/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/wa/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/xh/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/zh_HK/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/man/man1/gnome-dictionary.1.gz
+  /usr/share/man/man1/gnome-search-tool.1.gz
+  /usr/share/man/man1/gnome-system-log.1.gz
+  /usr/share/omf/gnome-dictionary/gnome-dictionary-C.omf
+  /usr/share/omf/gnome-dictionary/gnome-dictionary-es.omf
+  /usr/share/omf/gnome-search-tool/gnome-search-tool-C.omf
+  /usr/share/omf/gnome-search-tool/gnome-search-tool-es.omf
+  /usr/share/omf/gnome-search-tool/gnome-search-tool-it.omf
+  /usr/share/omf/gnome-system-log/gnome-system-log-C.omf
+  /usr/share/omf/gnome-system-log/gnome-system-log-es.omf
+  /usr/share/pixmaps/gnome-dictionary.png
+  /usr/share/pixmaps/gsearchtool/thumbnail_frame.png
+
+--------------------
+
+Port Notes:
+
+----- version 2.14.0-1 -----
+Version bump for GNOME 2.14.
+
+----- version 2.12.2-1 -----
+Version bump for GNOME 2.12.
+
+----- version 2.10.1-1 -----
+Version bump for GNOME 2.10.
+
+----- version 2.8.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
