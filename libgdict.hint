@@ -1,0 +1,7 @@
+category: Gnome
+requires: cygwin glib2 gtk2-x11 libintl8 pango
+external-source: gnome-utils
+sdesc: "GNOME dictd dictionary library (runtime)"
+ldesc: "Includes five GNOME Desktop utilities: baobab (filesystem monitor),
+gnome-dictionary, gnome-screenshot, gnome-search-tool, and
+gnome-system-log."

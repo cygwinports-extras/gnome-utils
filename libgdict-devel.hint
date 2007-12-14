@@ -1,0 +1,7 @@
+category: Gnome
+requires: cygwin libgdict10 glib2-devel gtk2-x11-devel gettext pango-devel
+external-source: gnome-utils
+sdesc: "GNOME dictd dictionary library (development)"
+ldesc: "Includes five GNOME Desktop utilities: baobab (filesystem monitor),
+gnome-dictionary, gnome-screenshot, gnome-search-tool, and
+gnome-system-log."
