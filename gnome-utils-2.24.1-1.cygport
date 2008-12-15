@@ -1,0 +1,15 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Desktop utilities"
+
+PKG_NAMES="${PN} libgdict1.0_6 libgdict1.0-devel"
+gnome_utils_CONTENTS="--exclude=gdict-1.0 --exclude=gtk-doc --exclude=*.dll
+                      etc/ usr/bin/ usr/lib/bonobo/ usr/lib/panel-2.0/ usr/share/"
+libgdict1_0_6_CONTENTS="usr/bin/cyggdict-1.0-6.dll usr/share/gdict-1.0/"
+libgdict1_0_devel_CONTENTS="usr/include/ usr/lib/libgdict* usr/lib/pkgconfig/ usr/share/gtk-doc/"
+
+CYGCONF_ARGS="
+	--libexecdir=/usr/lib/panel-2.0
+	--disable-hal
+	--disable-ipv6
+"

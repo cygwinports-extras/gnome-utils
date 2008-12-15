@@ -5,30 +5,27 @@ gnome-dictionary, gnome-screenshot, gnome-search-tool, and
 gnome-system-log.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  GConf2-2.20.1-1
-  atk-1.20.0-1
-  gdk-pixbuf2-2.12.2-1
-  glib2-2.14.4-1
-  gnome-panel-2.20.2-1
-  gnome-vfs2-2.20.1-1
-  gtk2-x11-2.12.2-1
-  libX11_6-1.1.3-1
-  libXext6-1.0.3-1
-  libart_lgpl2-2.3.19-1
-  libbonoboui2-2.20.0-1
-  libcairo2-1.4.12-1
-  libglade2-2.6.2-1
-  libgnome-desktop2-2.20.2-1
-  libgnome2-2.20.1.1-1
-  libgnomecanvas2-2.20.1.1-1
-  libgnomeprint22-2.18.2-1
-  libgnomeprintui22-2.18.1-1
-  libgnomeui2-2.20.1.1-1
-  libgtop2-2.14.7-1
-  libintl8-0.15-1
-  pango-1.18.3-1
+  cygwin-1.5.25-15
+  gnome-panel-2.22.2-1
   grep
+  libart_lgpl_2_2-2.3.20-2
+  libatk1.0_0-1.24.0-1
+  libbonoboui2_0-2.24.0-1
+  libcairo2-1.8.4-1
+  libgconf2_4-2.24.0-1
+  libgdk_pixbuf2.0_0-2.14.5-1
+  libglade2.0_0-2.6.3-2
+  libglib2.0_0-2.18.3-1
+  libgnome-desktop2_7-2.24.2-1
+  libgnome2_0-2.24.1-1
+  libgnomeui2_0-2.24.0-1
+  libgnomevfs2_0-2.24.0-1
+  libgtk2.0_0-2.14.5-1
+  libgtop2.0_7-2.24.0-1
+  libintl8-0.17-2
+  libpango1.0_0-1.22.3-1
+  libX11_6-1.1.5-1
+  libXext6-1.0.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -68,8 +65,9 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
+Files included in the binary packages:
 
+(gnome-utils)
   /etc/gconf/schemas/baobab.schemas
   /etc/gconf/schemas/gnome-dictionary.schemas
   /etc/gconf/schemas/gnome-screenshot.schemas
@@ -92,17 +90,20 @@ Files included in the binary package:
   /usr/share/applications/gnome-system-log.desktop
   /usr/share/baobab/pixmaps/baobab.glade
   /usr/share/baobab/pixmaps/shot.png
-  /usr/share/doc/gnome-utils-2.20.0.1/AUTHORS
-  /usr/share/doc/gnome-utils-2.20.0.1/COPYING
-  /usr/share/doc/gnome-utils-2.20.0.1/ChangeLog
-  /usr/share/doc/gnome-utils-2.20.0.1/INSTALL
-  /usr/share/doc/gnome-utils-2.20.0.1/NEWS
-  /usr/share/doc/gnome-utils-2.20.0.1/README
-  /usr/share/doc/gnome-utils-2.20.0.1/THANKS
+  /usr/share/doc/gnome-utils-2.24.1/AUTHORS
+  /usr/share/doc/gnome-utils-2.24.1/COPYING
+  /usr/share/doc/gnome-utils-2.24.1/ChangeLog
+  /usr/share/doc/gnome-utils-2.24.1/INSTALL
+  /usr/share/doc/gnome-utils-2.24.1/NEWS
+  /usr/share/doc/gnome-utils-2.24.1/README
+  /usr/share/doc/gnome-utils-2.24.1/THANKS
+  /usr/share/gdict-1.0/sources/default.desktop
+  /usr/share/gdict-1.0/sources/spanish.desktop
+  /usr/share/gdict-1.0/sources/thai.desktop
   /usr/share/gnome-2.0/ui/GNOME_DictionaryApplet.xml
   /usr/share/gnome-dictionary/gnome-dictionary-preferences.glade
   /usr/share/gnome-dictionary/gnome-dictionary-ui.xml
-  /usr/share/gnome-screenshot/glade/gnome-screenshot.glade
+  /usr/share/gnome-screenshot/gnome-screenshot.ui
   /usr/share/gnome-system-log/gnome-system-log-actions.db
   /usr/share/gnome-system-log/gnome-system-log-descript.db
   /usr/share/gnome-system-log/gnome-system-log-regexp.db
@@ -110,6 +111,8 @@ Files included in the binary package:
   /usr/share/gnome/help/baobab/C/figures/baobab_fullscan.png
   /usr/share/gnome/help/baobab/C/figures/baobab_prefs.png
   /usr/share/gnome/help/baobab/C/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/C/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/C/figures/baobab_ringschart2.png
   /usr/share/gnome/help/baobab/C/figures/baobab_treemaps.png
   /usr/share/gnome/help/baobab/C/figures/baobab_window.png
   /usr/share/gnome/help/baobab/C/legal.xml
@@ -117,44 +120,114 @@ Files included in the binary package:
   /usr/share/gnome/help/baobab/ca/figures/baobab_fullscan.png
   /usr/share/gnome/help/baobab/ca/figures/baobab_prefs.png
   /usr/share/gnome/help/baobab/ca/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/ca/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/ca/figures/baobab_ringschart2.png
   /usr/share/gnome/help/baobab/ca/figures/baobab_treemaps.png
   /usr/share/gnome/help/baobab/ca/figures/baobab_window.png
+  /usr/share/gnome/help/baobab/da/baobab.xml
+  /usr/share/gnome/help/baobab/da/figures/baobab_fullscan.png
+  /usr/share/gnome/help/baobab/da/figures/baobab_prefs.png
+  /usr/share/gnome/help/baobab/da/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/da/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/da/figures/baobab_ringschart2.png
+  /usr/share/gnome/help/baobab/da/figures/baobab_treemaps.png
+  /usr/share/gnome/help/baobab/da/figures/baobab_window.png
+  /usr/share/gnome/help/baobab/de/baobab.xml
+  /usr/share/gnome/help/baobab/de/figures/baobab_fullscan.png
+  /usr/share/gnome/help/baobab/de/figures/baobab_prefs.png
+  /usr/share/gnome/help/baobab/de/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/de/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/de/figures/baobab_ringschart2.png
+  /usr/share/gnome/help/baobab/de/figures/baobab_treemaps.png
+  /usr/share/gnome/help/baobab/de/figures/baobab_window.png
   /usr/share/gnome/help/baobab/en_GB/baobab.xml
   /usr/share/gnome/help/baobab/en_GB/figures/baobab_fullscan.png
   /usr/share/gnome/help/baobab/en_GB/figures/baobab_prefs.png
   /usr/share/gnome/help/baobab/en_GB/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/en_GB/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/en_GB/figures/baobab_ringschart2.png
   /usr/share/gnome/help/baobab/en_GB/figures/baobab_treemaps.png
   /usr/share/gnome/help/baobab/en_GB/figures/baobab_window.png
   /usr/share/gnome/help/baobab/es/baobab.xml
   /usr/share/gnome/help/baobab/es/figures/baobab_fullscan.png
   /usr/share/gnome/help/baobab/es/figures/baobab_prefs.png
   /usr/share/gnome/help/baobab/es/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/es/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/es/figures/baobab_ringschart2.png
   /usr/share/gnome/help/baobab/es/figures/baobab_treemaps.png
   /usr/share/gnome/help/baobab/es/figures/baobab_window.png
+  /usr/share/gnome/help/baobab/fi/baobab.xml
+  /usr/share/gnome/help/baobab/fi/figures/baobab_fullscan.png
+  /usr/share/gnome/help/baobab/fi/figures/baobab_prefs.png
+  /usr/share/gnome/help/baobab/fi/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/fi/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/fi/figures/baobab_ringschart2.png
+  /usr/share/gnome/help/baobab/fi/figures/baobab_treemaps.png
+  /usr/share/gnome/help/baobab/fi/figures/baobab_window.png
   /usr/share/gnome/help/baobab/fr/baobab.xml
   /usr/share/gnome/help/baobab/fr/figures/baobab_fullscan.png
   /usr/share/gnome/help/baobab/fr/figures/baobab_prefs.png
   /usr/share/gnome/help/baobab/fr/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/fr/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/fr/figures/baobab_ringschart2.png
   /usr/share/gnome/help/baobab/fr/figures/baobab_treemaps.png
   /usr/share/gnome/help/baobab/fr/figures/baobab_window.png
+  /usr/share/gnome/help/baobab/it/baobab.xml
+  /usr/share/gnome/help/baobab/it/figures/baobab_fullscan.png
+  /usr/share/gnome/help/baobab/it/figures/baobab_prefs.png
+  /usr/share/gnome/help/baobab/it/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/it/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/it/figures/baobab_ringschart2.png
+  /usr/share/gnome/help/baobab/it/figures/baobab_treemaps.png
+  /usr/share/gnome/help/baobab/it/figures/baobab_window.png
   /usr/share/gnome/help/baobab/oc/baobab.xml
   /usr/share/gnome/help/baobab/oc/figures/baobab_fullscan.png
   /usr/share/gnome/help/baobab/oc/figures/baobab_prefs.png
   /usr/share/gnome/help/baobab/oc/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/oc/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/oc/figures/baobab_ringschart2.png
   /usr/share/gnome/help/baobab/oc/figures/baobab_treemaps.png
   /usr/share/gnome/help/baobab/oc/figures/baobab_window.png
+  /usr/share/gnome/help/baobab/ru/baobab.xml
+  /usr/share/gnome/help/baobab/ru/figures/baobab_fullscan.png
+  /usr/share/gnome/help/baobab/ru/figures/baobab_prefs.png
+  /usr/share/gnome/help/baobab/ru/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/ru/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/ru/figures/baobab_ringschart2.png
+  /usr/share/gnome/help/baobab/ru/figures/baobab_treemaps.png
+  /usr/share/gnome/help/baobab/ru/figures/baobab_window.png
   /usr/share/gnome/help/baobab/sv/baobab.xml
   /usr/share/gnome/help/baobab/sv/figures/baobab_fullscan.png
   /usr/share/gnome/help/baobab/sv/figures/baobab_prefs.png
   /usr/share/gnome/help/baobab/sv/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/sv/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/sv/figures/baobab_ringschart2.png
   /usr/share/gnome/help/baobab/sv/figures/baobab_treemaps.png
   /usr/share/gnome/help/baobab/sv/figures/baobab_window.png
   /usr/share/gnome/help/baobab/uk/baobab.xml
   /usr/share/gnome/help/baobab/uk/figures/baobab_fullscan.png
   /usr/share/gnome/help/baobab/uk/figures/baobab_prefs.png
   /usr/share/gnome/help/baobab/uk/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/uk/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/uk/figures/baobab_ringschart2.png
   /usr/share/gnome/help/baobab/uk/figures/baobab_treemaps.png
   /usr/share/gnome/help/baobab/uk/figures/baobab_window.png
+  /usr/share/gnome/help/baobab/zh_HK/baobab.xml
+  /usr/share/gnome/help/baobab/zh_HK/figures/baobab_fullscan.png
+  /usr/share/gnome/help/baobab/zh_HK/figures/baobab_prefs.png
+  /usr/share/gnome/help/baobab/zh_HK/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/zh_HK/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/zh_HK/figures/baobab_ringschart2.png
+  /usr/share/gnome/help/baobab/zh_HK/figures/baobab_treemaps.png
+  /usr/share/gnome/help/baobab/zh_HK/figures/baobab_window.png
+  /usr/share/gnome/help/baobab/zh_TW/baobab.xml
+  /usr/share/gnome/help/baobab/zh_TW/figures/baobab_fullscan.png
+  /usr/share/gnome/help/baobab/zh_TW/figures/baobab_prefs.png
+  /usr/share/gnome/help/baobab/zh_TW/figures/baobab_remote.png
+  /usr/share/gnome/help/baobab/zh_TW/figures/baobab_ringschart1.png
+  /usr/share/gnome/help/baobab/zh_TW/figures/baobab_ringschart2.png
+  /usr/share/gnome/help/baobab/zh_TW/figures/baobab_treemaps.png
+  /usr/share/gnome/help/baobab/zh_TW/figures/baobab_window.png
   /usr/share/gnome/help/gnome-dictionary/C/figures/gnome-dictionary-add-source.png
   /usr/share/gnome/help/gnome-dictionary/C/figures/gnome-dictionary-applet-window.png
   /usr/share/gnome/help/gnome-dictionary/C/figures/gnome-dictionary-applet.png
@@ -174,6 +247,15 @@ Files included in the binary package:
   /usr/share/gnome/help/gnome-dictionary/ca/figures/gnome-dictionary-preferences-print.png
   /usr/share/gnome/help/gnome-dictionary/ca/figures/gnome-dictionary-preferences-source.png
   /usr/share/gnome/help/gnome-dictionary/ca/gnome-dictionary.xml
+  /usr/share/gnome/help/gnome-dictionary/de/figures/gnome-dictionary-add-source.png
+  /usr/share/gnome/help/gnome-dictionary/de/figures/gnome-dictionary-applet-window.png
+  /usr/share/gnome/help/gnome-dictionary/de/figures/gnome-dictionary-applet.png
+  /usr/share/gnome/help/gnome-dictionary/de/figures/gnome-dictionary-application.png
+  /usr/share/gnome/help/gnome-dictionary/de/figures/gnome-dictionary-find.png
+  /usr/share/gnome/help/gnome-dictionary/de/figures/gnome-dictionary-lookup.png
+  /usr/share/gnome/help/gnome-dictionary/de/figures/gnome-dictionary-preferences-print.png
+  /usr/share/gnome/help/gnome-dictionary/de/figures/gnome-dictionary-preferences-source.png
+  /usr/share/gnome/help/gnome-dictionary/de/gnome-dictionary.xml
   /usr/share/gnome/help/gnome-dictionary/el/figures/gnome-dictionary-add-source.png
   /usr/share/gnome/help/gnome-dictionary/el/figures/gnome-dictionary-applet-window.png
   /usr/share/gnome/help/gnome-dictionary/el/figures/gnome-dictionary-applet.png
@@ -201,6 +283,15 @@ Files included in the binary package:
   /usr/share/gnome/help/gnome-dictionary/es/figures/gnome-dictionary-preferences-print.png
   /usr/share/gnome/help/gnome-dictionary/es/figures/gnome-dictionary-preferences-source.png
   /usr/share/gnome/help/gnome-dictionary/es/gnome-dictionary.xml
+  /usr/share/gnome/help/gnome-dictionary/fi/figures/gnome-dictionary-add-source.png
+  /usr/share/gnome/help/gnome-dictionary/fi/figures/gnome-dictionary-applet-window.png
+  /usr/share/gnome/help/gnome-dictionary/fi/figures/gnome-dictionary-applet.png
+  /usr/share/gnome/help/gnome-dictionary/fi/figures/gnome-dictionary-application.png
+  /usr/share/gnome/help/gnome-dictionary/fi/figures/gnome-dictionary-find.png
+  /usr/share/gnome/help/gnome-dictionary/fi/figures/gnome-dictionary-lookup.png
+  /usr/share/gnome/help/gnome-dictionary/fi/figures/gnome-dictionary-preferences-print.png
+  /usr/share/gnome/help/gnome-dictionary/fi/figures/gnome-dictionary-preferences-source.png
+  /usr/share/gnome/help/gnome-dictionary/fi/gnome-dictionary.xml
   /usr/share/gnome/help/gnome-dictionary/fr/figures/gnome-dictionary-add-source.png
   /usr/share/gnome/help/gnome-dictionary/fr/figures/gnome-dictionary-applet-window.png
   /usr/share/gnome/help/gnome-dictionary/fr/figures/gnome-dictionary-applet.png
@@ -219,6 +310,15 @@ Files included in the binary package:
   /usr/share/gnome/help/gnome-dictionary/it/figures/gnome-dictionary-preferences-print.png
   /usr/share/gnome/help/gnome-dictionary/it/figures/gnome-dictionary-preferences-source.png
   /usr/share/gnome/help/gnome-dictionary/it/gnome-dictionary.xml
+  /usr/share/gnome/help/gnome-dictionary/oc/figures/gnome-dictionary-add-source.png
+  /usr/share/gnome/help/gnome-dictionary/oc/figures/gnome-dictionary-applet-window.png
+  /usr/share/gnome/help/gnome-dictionary/oc/figures/gnome-dictionary-applet.png
+  /usr/share/gnome/help/gnome-dictionary/oc/figures/gnome-dictionary-application.png
+  /usr/share/gnome/help/gnome-dictionary/oc/figures/gnome-dictionary-find.png
+  /usr/share/gnome/help/gnome-dictionary/oc/figures/gnome-dictionary-lookup.png
+  /usr/share/gnome/help/gnome-dictionary/oc/figures/gnome-dictionary-preferences-print.png
+  /usr/share/gnome/help/gnome-dictionary/oc/figures/gnome-dictionary-preferences-source.png
+  /usr/share/gnome/help/gnome-dictionary/oc/gnome-dictionary.xml
   /usr/share/gnome/help/gnome-dictionary/ru/figures/gnome-dictionary-add-source.png
   /usr/share/gnome/help/gnome-dictionary/ru/figures/gnome-dictionary-applet-window.png
   /usr/share/gnome/help/gnome-dictionary/ru/figures/gnome-dictionary-applet.png
@@ -251,12 +351,18 @@ Files included in the binary package:
   /usr/share/gnome/help/gnome-search-tool/C/legal.xml
   /usr/share/gnome/help/gnome-search-tool/ca/figures/gnome-search-tool_window.png
   /usr/share/gnome/help/gnome-search-tool/ca/gnome-search-tool.xml
+  /usr/share/gnome/help/gnome-search-tool/de/figures/gnome-search-tool_window.png
+  /usr/share/gnome/help/gnome-search-tool/de/gnome-search-tool.xml
   /usr/share/gnome/help/gnome-search-tool/en_GB/figures/gnome-search-tool_window.png
   /usr/share/gnome/help/gnome-search-tool/en_GB/gnome-search-tool.xml
   /usr/share/gnome/help/gnome-search-tool/es/figures/gnome-search-tool_window.png
   /usr/share/gnome/help/gnome-search-tool/es/gnome-search-tool.xml
+  /usr/share/gnome/help/gnome-search-tool/fi/figures/gnome-search-tool_window.png
+  /usr/share/gnome/help/gnome-search-tool/fi/gnome-search-tool.xml
   /usr/share/gnome/help/gnome-search-tool/fr/figures/gnome-search-tool_window.png
   /usr/share/gnome/help/gnome-search-tool/fr/gnome-search-tool.xml
+  /usr/share/gnome/help/gnome-search-tool/it/figures/gnome-search-tool_window.png
+  /usr/share/gnome/help/gnome-search-tool/it/gnome-search-tool.xml
   /usr/share/gnome/help/gnome-search-tool/ko/figures/gnome-search-tool_window.png
   /usr/share/gnome/help/gnome-search-tool/ko/gnome-search-tool.xml
   /usr/share/gnome/help/gnome-search-tool/oc/figures/gnome-search-tool_window.png
@@ -272,10 +378,16 @@ Files included in the binary package:
   /usr/share/gnome/help/gnome-system-log/C/legal.xml
   /usr/share/gnome/help/gnome-system-log/ca/figures/syslog_window.png
   /usr/share/gnome/help/gnome-system-log/ca/gnome-system-log.xml
+  /usr/share/gnome/help/gnome-system-log/de/figures/syslog_window.png
+  /usr/share/gnome/help/gnome-system-log/de/gnome-system-log.xml
+  /usr/share/gnome/help/gnome-system-log/el/figures/syslog_window.png
+  /usr/share/gnome/help/gnome-system-log/el/gnome-system-log.xml
   /usr/share/gnome/help/gnome-system-log/en_GB/figures/syslog_window.png
   /usr/share/gnome/help/gnome-system-log/en_GB/gnome-system-log.xml
   /usr/share/gnome/help/gnome-system-log/es/figures/syslog_window.png
   /usr/share/gnome/help/gnome-system-log/es/gnome-system-log.xml
+  /usr/share/gnome/help/gnome-system-log/fi/figures/syslog_window.png
+  /usr/share/gnome/help/gnome-system-log/fi/gnome-system-log.xml
   /usr/share/gnome/help/gnome-system-log/fr/figures/syslog_window.png
   /usr/share/gnome/help/gnome-system-log/fr/gnome-system-log.xml
   /usr/share/gnome/help/gnome-system-log/it/figures/syslog_window.png
@@ -290,12 +402,47 @@ Files included in the binary package:
   /usr/share/gnome/help/gnome-system-log/sv/gnome-system-log.xml
   /usr/share/gnome/help/gnome-system-log/uk/figures/syslog_window.png
   /usr/share/gnome/help/gnome-system-log/uk/gnome-system-log.xml
+  /usr/share/gtk-doc/html/gdict/GdictClientContext.html
+  /usr/share/gtk-doc/html/gdict/GdictDatabaseChooser.html
+  /usr/share/gtk-doc/html/gdict/GdictDefbox.html
+  /usr/share/gtk-doc/html/gdict/GdictSource.html
+  /usr/share/gtk-doc/html/gdict/GdictSourceChooser.html
+  /usr/share/gtk-doc/html/gdict/GdictSourceLoader.html
+  /usr/share/gtk-doc/html/gdict/GdictSpeller.html
+  /usr/share/gtk-doc/html/gdict/GdictStrategyChooser.html
+  /usr/share/gtk-doc/html/gdict/ch05.html
+  /usr/share/gtk-doc/html/gdict/ch06.html
+  /usr/share/gtk-doc/html/gdict/context-types.html
+  /usr/share/gtk-doc/html/gdict/context.html
+  /usr/share/gtk-doc/html/gdict/gdict-Gdict-Utilities.html
+  /usr/share/gtk-doc/html/gdict/gdict-Gdict-Version-Checking.html
+  /usr/share/gtk-doc/html/gdict/gdict-GdictContext.html
+  /usr/share/gtk-doc/html/gdict/gdict-utils.html
+  /usr/share/gtk-doc/html/gdict/gdict.devhelp
+  /usr/share/gtk-doc/html/gdict/gdict.devhelp2
+  /usr/share/gtk-doc/html/gdict/gdict.html
+  /usr/share/gtk-doc/html/gdict/gdictui.html
+  /usr/share/gtk-doc/html/gdict/home.png
+  /usr/share/gtk-doc/html/gdict/index.html
+  /usr/share/gtk-doc/html/gdict/index.sgml
+  /usr/share/gtk-doc/html/gdict/introduction.html
+  /usr/share/gtk-doc/html/gdict/ix01.html
+  /usr/share/gtk-doc/html/gdict/ix02.html
+  /usr/share/gtk-doc/html/gdict/ix03.html
+  /usr/share/gtk-doc/html/gdict/ix04.html
+  /usr/share/gtk-doc/html/gdict/left.png
+  /usr/share/gtk-doc/html/gdict/right.png
+  /usr/share/gtk-doc/html/gdict/sources.html
+  /usr/share/gtk-doc/html/gdict/style.css
+  /usr/share/gtk-doc/html/gdict/up.png
   /usr/share/icons/hicolor/24x24/apps/baobab.png
   /usr/share/icons/hicolor/scalable/apps/baobab.svg
   /usr/share/locale/am/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/ar/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/as/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/az/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/be/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/be@latin/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/bg/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/bn/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/bn_IN/LC_MESSAGES/gnome-utils-2.0.mo
@@ -326,14 +473,17 @@ Files included in the binary package:
   /usr/share/locale/it/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/ja/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/ka/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/kn/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/ko/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/ku/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/lt/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/lv/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/mai/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/mg/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/mk/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/ml/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/mn/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/mr/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/ms/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/nb/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/ne/LC_MESSAGES/gnome-utils-2.0.mo
@@ -343,6 +493,7 @@ Files included in the binary package:
   /usr/share/locale/or/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/pa/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/pl/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/ps/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/pt/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/ro/LC_MESSAGES/gnome-utils-2.0.mo
@@ -353,7 +504,7 @@ Files included in the binary package:
   /usr/share/locale/sl/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/sq/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/sr/LC_MESSAGES/gnome-utils-2.0.mo
-  /usr/share/locale/sr@Latn/LC_MESSAGES/gnome-utils-2.0.mo
+  /usr/share/locale/sr@latin/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/sv/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/ta/LC_MESSAGES/gnome-utils-2.0.mo
   /usr/share/locale/te/LC_MESSAGES/gnome-utils-2.0.mo
@@ -372,27 +523,40 @@ Files included in the binary package:
   /usr/share/man/man1/gnome-system-log.1.gz
   /usr/share/omf/baobab/baobab-C.omf
   /usr/share/omf/baobab/baobab-ca.omf
+  /usr/share/omf/baobab/baobab-da.omf
+  /usr/share/omf/baobab/baobab-de.omf
   /usr/share/omf/baobab/baobab-en_GB.omf
   /usr/share/omf/baobab/baobab-es.omf
+  /usr/share/omf/baobab/baobab-fi.omf
   /usr/share/omf/baobab/baobab-fr.omf
+  /usr/share/omf/baobab/baobab-it.omf
   /usr/share/omf/baobab/baobab-oc.omf
+  /usr/share/omf/baobab/baobab-ru.omf
   /usr/share/omf/baobab/baobab-sv.omf
   /usr/share/omf/baobab/baobab-uk.omf
+  /usr/share/omf/baobab/baobab-zh_HK.omf
+  /usr/share/omf/baobab/baobab-zh_TW.omf
   /usr/share/omf/gnome-dictionary/gnome-dictionary-C.omf
   /usr/share/omf/gnome-dictionary/gnome-dictionary-ca.omf
+  /usr/share/omf/gnome-dictionary/gnome-dictionary-de.omf
   /usr/share/omf/gnome-dictionary/gnome-dictionary-el.omf
   /usr/share/omf/gnome-dictionary/gnome-dictionary-en_GB.omf
   /usr/share/omf/gnome-dictionary/gnome-dictionary-es.omf
+  /usr/share/omf/gnome-dictionary/gnome-dictionary-fi.omf
   /usr/share/omf/gnome-dictionary/gnome-dictionary-fr.omf
   /usr/share/omf/gnome-dictionary/gnome-dictionary-it.omf
+  /usr/share/omf/gnome-dictionary/gnome-dictionary-oc.omf
   /usr/share/omf/gnome-dictionary/gnome-dictionary-ru.omf
   /usr/share/omf/gnome-dictionary/gnome-dictionary-sv.omf
   /usr/share/omf/gnome-dictionary/gnome-dictionary-uk.omf
   /usr/share/omf/gnome-search-tool/gnome-search-tool-C.omf
   /usr/share/omf/gnome-search-tool/gnome-search-tool-ca.omf
+  /usr/share/omf/gnome-search-tool/gnome-search-tool-de.omf
   /usr/share/omf/gnome-search-tool/gnome-search-tool-en_GB.omf
   /usr/share/omf/gnome-search-tool/gnome-search-tool-es.omf
+  /usr/share/omf/gnome-search-tool/gnome-search-tool-fi.omf
   /usr/share/omf/gnome-search-tool/gnome-search-tool-fr.omf
+  /usr/share/omf/gnome-search-tool/gnome-search-tool-it.omf
   /usr/share/omf/gnome-search-tool/gnome-search-tool-ko.omf
   /usr/share/omf/gnome-search-tool/gnome-search-tool-oc.omf
   /usr/share/omf/gnome-search-tool/gnome-search-tool-ru.omf
@@ -400,8 +564,11 @@ Files included in the binary package:
   /usr/share/omf/gnome-search-tool/gnome-search-tool-uk.omf
   /usr/share/omf/gnome-system-log/gnome-system-log-C.omf
   /usr/share/omf/gnome-system-log/gnome-system-log-ca.omf
+  /usr/share/omf/gnome-system-log/gnome-system-log-de.omf
+  /usr/share/omf/gnome-system-log/gnome-system-log-el.omf
   /usr/share/omf/gnome-system-log/gnome-system-log-en_GB.omf
   /usr/share/omf/gnome-system-log/gnome-system-log-es.omf
+  /usr/share/omf/gnome-system-log/gnome-system-log-fi.omf
   /usr/share/omf/gnome-system-log/gnome-system-log-fr.omf
   /usr/share/omf/gnome-system-log/gnome-system-log-it.omf
   /usr/share/omf/gnome-system-log/gnome-system-log-ko.omf
@@ -411,19 +578,16 @@ Files included in the binary package:
   /usr/share/omf/gnome-system-log/gnome-system-log-uk.omf
   /usr/share/pixmaps/gsearchtool/thumbnail_frame.png
 
-(libgdict10)
-  /usr/bin/cyggdict-1.0-5.dll
-  /usr/share/gdict-1.0/sources/default.desktop
-  /usr/share/gdict-1.0/sources/spanish.desktop
-  /usr/share/gdict-1.0/sources/thai.desktop
+(libgdict1.0_6)
+  /usr/bin/cyggdict-1.0-6.dll
 
-(libgdict10-devel)
+(libgdict1.0-devel)
   /usr/include/gdict-1.0/gdict/gdict-client-context.h
   /usr/include/gdict-1.0/gdict/gdict-context.h
   /usr/include/gdict-1.0/gdict/gdict-database-chooser.h
   /usr/include/gdict-1.0/gdict/gdict-defbox.h
-  /usr/include/gdict-1.0/gdict/gdict-entry.h
   /usr/include/gdict-1.0/gdict/gdict-enum-types.h
+  /usr/include/gdict-1.0/gdict/gdict-source-chooser.h
   /usr/include/gdict-1.0/gdict/gdict-source-loader.h
   /usr/include/gdict-1.0/gdict/gdict-source.h
   /usr/include/gdict-1.0/gdict/gdict-speller.h
@@ -434,34 +598,6 @@ Files included in the binary package:
   /usr/lib/libgdict-1.0.dll.a
   /usr/lib/libgdict-1.0.la
   /usr/lib/pkgconfig/gdict-1.0.pc
-  /usr/share/gtk-doc/html/gdict/GdictClientContext.html
-  /usr/share/gtk-doc/html/gdict/GdictDatabaseChooser.html
-  /usr/share/gtk-doc/html/gdict/GdictDefbox.html
-  /usr/share/gtk-doc/html/gdict/GdictSource.html
-  /usr/share/gtk-doc/html/gdict/GdictSourceLoader.html
-  /usr/share/gtk-doc/html/gdict/GdictSpeller.html
-  /usr/share/gtk-doc/html/gdict/GdictStrategyChooser.html
-  /usr/share/gtk-doc/html/gdict/ch05.html
-  /usr/share/gtk-doc/html/gdict/ch06.html
-  /usr/share/gtk-doc/html/gdict/context-types.html
-  /usr/share/gtk-doc/html/gdict/context.html
-  /usr/share/gtk-doc/html/gdict/gdict-Gdict-Utilities.html
-  /usr/share/gtk-doc/html/gdict/gdict-Gdict-Version-Checking.html
-  /usr/share/gtk-doc/html/gdict/gdict-GdictContext.html
-  /usr/share/gtk-doc/html/gdict/gdict-utils.html
-  /usr/share/gtk-doc/html/gdict/gdict.devhelp
-  /usr/share/gtk-doc/html/gdict/gdict.devhelp2
-  /usr/share/gtk-doc/html/gdict/gdict.html
-  /usr/share/gtk-doc/html/gdict/gdictui.html
-  /usr/share/gtk-doc/html/gdict/home.png
-  /usr/share/gtk-doc/html/gdict/index.html
-  /usr/share/gtk-doc/html/gdict/index.sgml
-  /usr/share/gtk-doc/html/gdict/introduction.html
-  /usr/share/gtk-doc/html/gdict/left.png
-  /usr/share/gtk-doc/html/gdict/right.png
-  /usr/share/gtk-doc/html/gdict/sources.html
-  /usr/share/gtk-doc/html/gdict/style.css
-  /usr/share/gtk-doc/html/gdict/up.png
 
 --------------------
 
