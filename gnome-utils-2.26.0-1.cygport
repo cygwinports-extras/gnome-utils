@@ -11,5 +11,4 @@ libgdict1_0_devel_CONTENTS="usr/include/ usr/lib/libgdict* usr/lib/pkgconfig/ us
 CYGCONF_ARGS="
 	--libexecdir=/usr/lib/panel-2.0
 	--disable-hal
-	--disable-ipv6
 "
