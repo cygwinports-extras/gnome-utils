@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin GConf2 grep libart_lgpl_2_2 libatk1.0_0 libcairo2 libgconf2_4 libgdict1.0_6 libgdk_pixbuf2.0_0 libglade2.0_0 libglib2.0_0 libgnome2_0 libgnome-desktop2_11 libgnomeui2_0 libgnomevfs2_0 libgtk2.0_0 libgtop2.0_7 libintl8 libpango1.0_0 libX11_6 libXext6 zlib0
+requires: GConf2 grep libart_lgpl_2_2 libatk1.0_0 libcairo2 libgconf2_4 libgdict1.0_6 libgdk_pixbuf2.0_0 libglade2.0_0 libglib2.0_0 libgnome2_0 libgnome-desktop2_11 libgnomeui2_0 libgnomevfs2_0 libgtk2.0_0 libgtop2.0_7 libintl8 libpango1.0_0 libX11_6 libXext6 zlib0
 sdesc: "GNOME utilities: filesystem monitor, dictionary, screenshot utility, search tool, and system log"
 ldesc: "Includes five GNOME Desktop utilities: baobab (filesystem monitor),
 gnome-dictionary, gnome-screenshot, gnome-search-tool, and

@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libgdict1.0_6 libglib2.0-devel libgtk2.0-devel libpango1.0-devel
+requires: libgdict1.0_6 libglib2.0-devel libgtk2.0-devel libpango1.0-devel
 external-source: gnome-utils
 sdesc: "GNOME dictd dictionary library (development)"
 ldesc: "Includes five GNOME Desktop utilities: baobab (filesystem monitor),
