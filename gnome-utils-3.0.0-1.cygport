@@ -2,8 +2,6 @@ inherit gnome2
 
 DESCRIPTION="GNOME Desktop utilities"
 
-PATCH_URI="2.28.1-automake1.11.patch"
-
 PKG_NAMES="${PN} libgdict1.0_6 libgdict1.0-devel"
 gnome_utils_CONTENTS="--exclude=gdict-1.0 --exclude=gtk-doc --exclude=*.dll
                       etc/ usr/bin/ usr/share/"
