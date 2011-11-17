@@ -1,0 +1,8 @@
+etc/postinstall/gnome-utils.sh
+usr/bin/gnome-panel-screenshot
+usr/bin/gnome-screenshot.exe
+usr/share/applications/gnome-screenshot.desktop
+usr/share/GConf/gsettings/gnome-screenshot.convert
+usr/share/glib-2.0/schemas/org.gnome.gnome-screenshot.gschema.xml
+usr/share/gnome-screenshot/
+usr/share/man/man1/gnome-screenshot.1.gz

@@ -1,0 +1,5 @@
+etc/postinstall/gnome-utils.sh
+usr/bin/gnome-font-viewer.exe
+usr/bin/gnome-thumbnail-font.exe
+usr/share/applications/gnome-font-viewer.desktop
+usr/share/thumbnailers/gnome-font-viewer.thumbnailer

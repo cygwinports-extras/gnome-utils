@@ -1,6 +1,7 @@
 category: Gnome
-requires: baobab gnome-dictionary gnome-font-viewer gnome-screenshot gnome-search-tool gnome-system-log
-sdesc: "GNOME utilities (meta-package)"
+requires: gnome-utils-common libcairo2 libfreetype6 libglib2.0_0 libgtk3_0 libintl8 libpango1.0_0
+external-source: gnome-utils
+sdesc: "GNOME font viewer"
 ldesc: "Includes six GNOME Desktop utilities: baobab (filesystem monitor),
 gnome-dictionary, gnome-font-viewer, gnome-screenshot, gnome-search-tool, and
 gnome-system-log."

@@ -1,7 +1,7 @@
 category: Gnome
-requires: libglib2.0_0 libgtk3_0 libpango1.0_0
+requires: gnome-utils-common libcairo2 libcanberra0 libcanberra-gtk3_0 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk3_0 libintl8 libX11_6 libXext6
 external-source: gnome-utils
-sdesc: "GNOME dictd dictionary library (runtime)"
+sdesc: "GNOME screenshot utility"
 ldesc: "Includes six GNOME Desktop utilities: baobab (filesystem monitor),
 gnome-dictionary, gnome-font-viewer, gnome-screenshot, gnome-search-tool, and
 gnome-system-log."

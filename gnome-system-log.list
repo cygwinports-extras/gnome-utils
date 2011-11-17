@@ -1,0 +1,10 @@
+etc/postinstall/gnome-utils.sh
+usr/bin/gnome-system-log.exe
+usr/share/applications/gnome-system-log.desktop
+usr/share/GConf/gsettings/logview.convert
+usr/share/glib-2.0/schemas/org.gnome.gnome-system-log.gschema.xml
+usr/share/gnome/help/gnome-system-log/
+usr/share/gnome-utils/logview-*
+usr/share/icons/hicolor/*/apps/logview.*
+usr/share/man/man1/gnome-system-log.1.gz
+usr/share/omf/gnome-system-log/

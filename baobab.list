@@ -1,0 +1,9 @@
+etc/postinstall/gnome-utils.sh
+usr/bin/baobab.exe
+usr/share/applications/baobab.desktop
+usr/share/baobab/
+usr/share/glib-2.0/schemas/org.gnome.baobab.gschema.xml
+usr/share/gnome/help/baobab/
+usr/share/icons/hicolor/*/apps/baobab.*
+usr/share/man/man1/baobab.1.gz
+usr/share/omf/baobab/

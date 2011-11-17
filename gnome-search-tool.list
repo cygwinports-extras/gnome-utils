@@ -1,0 +1,7 @@
+etc/postinstall/gnome-utils.sh
+usr/bin/gnome-search-tool.exe
+usr/share/applications/gnome-search-tool.desktop
+usr/share/gnome/help/gnome-search-tool/
+usr/share/man/man1/gnome-search-tool.1.gz
+usr/share/omf/gnome-search-tool/
+usr/share/pixmaps/gsearchtool/

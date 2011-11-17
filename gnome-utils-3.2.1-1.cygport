@@ -1,0 +1,10 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Desktop utilities"
+
+PKG_NAMES="${PN} ${PN}-common baobab gnome-dictionary gnome-font-viewer
+           gnome-screenshot gnome-search-tool gnome-system-log
+           libgdict1.0_6 libgdict1.0-devel"
+gnome_utils_common_CONTENTS="etc/gconf/ etc/preremove/ usr/share/doc/${PN}/ usr/share/locale/"
+libgdict1_0_6_CONTENTS="usr/bin/cyggdict-1.0-6.dll usr/share/gdict-1.0/"
+libgdict1_0_devel_CONTENTS="usr/include/ usr/lib/libgdict* usr/lib/pkgconfig/ usr/share/gtk-doc/"

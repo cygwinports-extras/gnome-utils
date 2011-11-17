@@ -1,0 +1,8 @@
+etc/postinstall/gnome-utils.sh
+usr/bin/gnome-dictionary.exe
+usr/share/applications/gnome-dictionary.desktop
+usr/share/glib-2.0/schemas/org.gnome.dictionary.gschema.xml
+usr/share/gnome/help/gnome-dictionary/
+usr/share/gnome-dictionary/
+usr/share/man/man1/gnome-dictionary.1.gz
+usr/share/omf/gnome-dictionary/
